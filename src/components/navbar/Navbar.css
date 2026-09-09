@@ -27,11 +27,16 @@
     margin-right: 100px;
 }
 
-.menusections ul li{
+.menusections ul li {
     list-style: none;
     color: blueviolet;
 }
 
-.menusections ul li:hover{
+.menusections ul li a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.menusections ul li a:hover{
     border-bottom: 1px solid red;   
 }
